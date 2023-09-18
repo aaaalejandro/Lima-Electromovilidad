@@ -1,0 +1,88 @@
+/*! Formulario */
+.container{
+    padding-top: 130px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido{
+    padding: 30px;
+    text-align: center;
+}
+
+h3{
+    padding-bottom: 5px;
+    font-size: 32px;
+}
+
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.custom-btn {
+    font-size: 18px;
+    width: 200px;
+}
+
+.custom-btn:hover {
+    background-color: #073d49;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #073d49;
+    color: #ffffff;
+}
+
+.input-group-text{
+    color: #073d49;
+}
+
+.img-fluid {
+    max-width: 70%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #073d49;
+    border-radius: 20px;
+    box-shadow: 10px rgba(0, 0, 0, 0.2);
+}
+/*! Preguntas  */
+.custom-bg-color1 {
+    background-color: #2acfae;
+}
+.custom-bg-color2 {
+    background-color: #CCE2CB;
+}
+.custom-bg-color3 {
+    background-color: #fdcb6e;
+}
+.custom-bg-color4 {
+    background-color: #2acfae;
+}
+.custom-bg-color5 {
+    background-color: #CCE2CB;
+}
+.custom-bg-color6 {
+    background-color: #fdcb6e;
+}
+.accordion-button.collapsed.custom-bg-color1.text-black {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color2.text-black {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color3.text-black {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color4.text-black {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color5.text-black {
+    font-weight: bold;
+}
+.accordion-button.collapsed.custom-bg-color6.text-black {
+    font-weight: bold;
+}

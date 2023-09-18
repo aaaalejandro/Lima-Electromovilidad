@@ -1,0 +1,118 @@
+/*! Index */
+/*Todos Card Partes */
+.cardPartes {
+    --bg: #FDFDFD;
+    --contrast: #e2e0e0;
+    position: relative;
+    padding: 9px;
+    background-color: var(--bg);
+    border-radius: 1.5em;
+    margin-bottom: 1.5em;
+    width: 90%;
+    margin-left: 5%;
+}
+.card-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    filter: opacity(10%) contrast(105%);
+}
+.card-innerIndex {
+    overflow: hidden;
+    width: 100%;
+    height: 275px;
+    background-color: var(--contrast);
+    border-radius: 1.5em;
+    /* Content style */
+    font-size: 1em;
+    color: #212529;
+    text-align: center;
+}
+.card-innerIndex p {
+    margin: 0 .75rem;
+    text-align: justify;
+}
+.card-innerIndex hr {
+    margin: .75rem;
+}
+/*Todos Parallax */
+.imgMid {
+    background-image: url(../img/index/imgparallax.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 250px;
+}
+.imgMid2 {
+    background-image: url(../img/index/imgparallax2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 250px;
+}
+/*! Educación */
+main {
+    padding: 0;
+}
+.ptitulo {
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1em;
+    padding: .78em 0;
+}
+.edubanner {
+    background-image: url(../img/educacion/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: calc(100vh);
+    max-width: 100%;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    left: auto;
+    right: auto;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0rem;
+}
+.h4text {
+    width: 60%;
+    margin: auto;
+}
+.paddcard {
+    margin: 1.5em;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: .5em;
+    width: 350px;
+}
+.paddcard p {
+    padding-bottom: .5em;
+    width: 90%;
+    margin-left: 5%;
+}
+.beneficiosimg {
+    width: 100%;
+    min-width: 100%;
+    height: 250px;
+    border-bottom: 2px solid white;
+}
+@media screen and (max-width: 760px){
+    .contenedor {
+        width: 100%;
+    }
+    .h4text {
+        width: 100%;
+    }
+    .h2text {
+        width: 80%;
+        margin: auto;
+    }
+}
